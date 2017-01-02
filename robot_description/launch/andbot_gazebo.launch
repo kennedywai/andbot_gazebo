@@ -1,11 +1,9 @@
 <?xml version="1.0"?>
 
  <!--
- 
-   Created Or Edited on: 24/09/2015
-   Author: Dott. Antonio Mauro Galiano
- 	   antoniomauro.galiano@gmail.com
-
+    Created Or Edited on: 1/3/2017
+    Author: Kennedy Wai
+ 	  kennedywaiisawesome@gmail.com
    -->
 
 <launch>
@@ -20,7 +18,7 @@
   <!-- We resume the logic in empty_world.launch, changing only the name of the world to be launched -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
     <!--<arg name="world_name" value="$(find hyperlync_robot)/worlds/my_world.world"/>-->
-    <arg name="world_name" value="$(find andbot_gazebo)/worlds/maze_static_h2.world"/>
+    <arg name="world_name" value="$(find andbot_gazebo)/worlds/wtf2.world"/>
     <arg name="debug" value="$(arg debug)" />
     <arg name="gui" value="$(arg gui)" />
     <arg name="paused" value="$(arg paused)"/>
