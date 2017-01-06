@@ -57,4 +57,6 @@
     <remap from="scan"                      to="$(arg scan_topic)"/>
   </node>
   <node pkg="rviz" type="rviz" name="rviz" args="-d $(find andbot_gazebo)/banana_gz.rviz"/>
+  <!-- Adding load_map node-->
+  <node name="load_map" pkg="random_walk" type="load_map" output="screen" cwd="node" /> 
 </launch>
